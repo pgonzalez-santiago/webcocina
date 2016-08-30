@@ -2,9 +2,6 @@ import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 import routing from './main.routes';
 
-import moment from '../../../bower_components/moment/moment';
-import angularMoment from '../../../bower_components/angular-moment';
-
 export class MainController {
   $http;
   socket;
